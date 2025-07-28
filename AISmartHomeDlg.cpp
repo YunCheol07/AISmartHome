@@ -466,7 +466,7 @@ CString CAISmartHomeDlg::GetMicroData(void)
 	//%EB%8F%84%EA%B3%A0%EB%A9%B4 = 도고면(미세먼지 측정소)
 	// API 요청을 보낼 URL을 만듭니다
 	CString strServer = _T("apis.data.go.kr");
-	CString strObject = _T("/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?serviceKey=IX00uD9E9adAFKgHHZPdmZWNgt0ostdQXrboQz97Rhf96cWCdfdoKdlZxnTRsMuauxI3csG5PqXYZbFDh1LsPQ%3D%3D&returnType=json&numOfRows=1&pageNo=1&stationName=%EB%8F%84%EA%B3%A0%EB%A9%B4&dataTerm=DAILY&ver=1.2");
+	CString strObject = _T("/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?serviceKey=IXtdQXrboQz97Rhf96cWCdfdoKdlZxnTRsMuauxI3csG5PqXYZbFDh1LsPQ%3D%3D&returnType=json&numOfRows=1&pageNo=1&stationName=%EB%8F%84%EA%B3%A0%EB%A9%B4&dataTerm=DAILY&ver=1.2");
 	CString strAgent = _T("MFC App");
 	CInternetSession session(strAgent);
 	CString MicroResponse;
@@ -563,7 +563,7 @@ CString CAISmartHomeDlg::GetUVData(void)
 	// API 요청을 보낼 URL을 만듭니다
 	CString strServer = _T("apis.data.go.kr");
 	CString strObject;
-	strObject.Format(_T("/1360000/LivingWthrIdxServiceV4/getUVIdxV4?serviceKey=IX00uD9E9adAFKgHHZPdmZWNgt0ostdQXrboQz97Rhf96cWCdfdoKdlZxnTRsMuauxI3csG5PqXYZbFDh1LsPQ%%3D%%3D&pageNo=1&numOfRows=10&dataType=JSON&areaNo=4420041000&time=%s"), timeParam);
+	strObject.Format(_T("/1360000/LivingWthrIdxServiceV4/getUVIdxV4?serviceKey=IX00uD9E9ad7Rhf96cWCdfdoKdlZxnTRsMuauxI3csG5PqXYZbFDh1LsPQ%%3D%%3D&pageNo=1&numOfRows=10&dataType=JSON&areaNo=4420041000&time=%s"), timeParam);
 	CString strAgent = _T("MFC App");
 	CInternetSession session(strAgent);
 	CString strResponse;
