@@ -15,9 +15,9 @@
 #pragma comment(lib,"ws2_32.lib")
 
 // Database connection information
-#define DB_ADDRESS "127.0.0.1"
+#define DB_ADDRESS "127.0.0.0"
 #define DB_ID "root"
-#define DB_PASS "juvely9393"
+#define DB_PASS "123412412"
 #define DB_NAME "smarthome1"
 #define DB_PORT 3306 
 
